@@ -73,6 +73,7 @@ p {
     height: 65px;
     padding: 0 15px;
 
+
 }
 
 .nav div.main_list ul li a {
@@ -130,14 +131,15 @@ p {
 
 
     nav.nav.affix .navTrigger i {
-        background-color: #393939;;
+        background-color: #393939;
+        ;
         border-radius: 2px;
         content: '';
         display: block;
         width: 100%;
         height: 4px;
     }
-    
+
 
     .nav div.logo {
         margin-left: 15px;
@@ -170,7 +172,7 @@ p {
         width: 100%;
         text-align: left;
     }
-      
+
 
     .nav div.main_list ul li a {
         text-align: center;
@@ -407,7 +409,8 @@ nav.nav.affix div#mainListDiv {
 
 
 .nav.affix .navlinks li a {
-    color:#fff;
+
+    color: rgba(61, 61, 61, 0.69);
 
 }
 
@@ -432,9 +435,8 @@ nav.nav.affix {
 
 }
 
-.nav.affix ul.navlinks {
-    transform: translateY(10%);
-
+nav.affix ul.navlinks {
+    transform: translateY(100%);
 }
 
 
@@ -625,6 +627,10 @@ nav.nav.affix {
 }
 
 @media (max-width:600px) {
+    .nav.affix .navlinks li a {
+        color: #fff;
+    }
+
     .main-category {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -650,7 +656,7 @@ nav.nav.affix {
     }
 
     .chef {
-        padding: 100px 0px 100px 0px !important;
+        padding: 100px 0px 0px 0px !important;
         text-align: center !important;
     }
 
@@ -707,27 +713,30 @@ nav.nav.affix {
     .offer-category .item img {
         width: 60%;
     }
-        .banner-content .premium {
 
-            font-weight: 500;
-            font-size: 40px;
-          
-        }
-        .banner-image {
-            position: absolute;
-            top: 0%;
-            left: 50%;
-            transform: translate(26%, -92%);
-            width: 30px;
-            height: 45px;
-        }
-        .banner-content P {
-            font-size: 9px;
-            letter-spacing: 4px;
-            padding-top: 12px;
-            font-weight: bold;
-        }
-                                                            
+    .banner-content .premium {
+
+        font-weight: 500;
+        font-size: 40px;
+
+    }
+
+    .banner-image {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(26%, -92%);
+        width: 30px;
+        height: 45px;
+    }
+
+    .banner-content P {
+        font-size: 9px;
+        letter-spacing: 4px;
+        padding-top: 12px;
+        font-weight: bold;
+    }
+
 
 
 
@@ -951,9 +960,24 @@ nav.nav.affix {
     .owner {
         display: grid;
         grid-template-columns: repeat(1, 1fr) !important;
-        padding: 100px 0px 100px 0px;
+        padding: 0px 0px 0px 0px;
 
     }
+
+    .owner-section {
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .restaurant-section {
+        padding: 0px 0px 0px 0px;
+
+    }
+        footer {
+            background-color: #393939;
+            color: #ffffff;
+            margin-top: 0px !important;
+        }
 
 }
 
